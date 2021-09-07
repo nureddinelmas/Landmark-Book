@@ -2,7 +2,8 @@ package com.nureddinelmas.landmarkkotlinproject
 
 import java.io.Serializable
 
-class Landmark(val name: String,
+class Landmark(val name : String,
                val country : String,
-               val image: Int) : Serializable{
+               val image : Int): Serializable {
+
 }
